@@ -1,0 +1,32 @@
+*,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  background: #333333;
+}
+
+#canvas1 {
+  width: 800px;
+  height: 700px;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ffffff;
+  width: 800px;
+}
+
+
+.text {
+  color: #ffffff;
+}
+
+.slider {
+  width: 100%;
+}
